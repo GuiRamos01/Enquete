@@ -1,0 +1,36 @@
+@media (max-width: 1000px) {
+    .wrapper {
+        border-radius: 20px;
+        padding: 30px;
+        width: 788px;
+    }
+    .wrapper h6 {
+        font-size: 2rem;
+        margin: 0;
+    }
+    label .row span {
+        font-size: 2.3rem;
+    }
+    .poll-area label {
+        margin-bottom: 35px;
+        padding: 15px 18px;
+    }
+    label .progress {
+        height: 16px;
+    }
+    label .row .circle {
+        height: 30px;
+        width: 30px;
+    }
+    label .row .circle::after {
+        content: "";
+        height: 26px;
+        width: 26px;
+        background: #0d6efd;
+        border-radius: inherit;
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        display: none;
+    }
+}
